@@ -1,0 +1,18 @@
+#!/bin/bash
+
+function sendkeys () {
+  xvkbd -xsendevent -text $1
+}
+
+if [ "$1" == "back" ]; then
+  sendkeys"\[Alt_L]\[Left]"
+elif  [ "$1" == "newtab" ]; then
+  sendkeys"\Ct"
+elif  [ "$1" == "closetab" ]; then
+  sendkeys"\Cw"
+elif  [ "$1" == "prevtab" ]; then
+  sendkeys"\[Control]\[Prior]"
+elif  [ "$1" == "nexttab" ]; then
+  sendkeys"\[Control]\[Next]"
+fi
+

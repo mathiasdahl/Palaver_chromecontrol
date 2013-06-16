@@ -1,0 +1,11 @@
+name = ChromeControl
+version = 1.0
+description = Control Google Chrome
+file = chrome-control
+author = Mathias Dahl
+actions = 
+go back, Go to previous page
+new tab, Create new tab
+close tab, Close current tab
+next tab, Go to next tab
+previous tab, Go to next tab
