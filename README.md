@@ -1,7 +1,7 @@
 Palaver_chromecontrol
 =====================
 
-A simple Chrome control plugin for Palaver.
+A simple Chrome control plugin for [Palaver](https://github.com/JamezQ/Palaver).
 
 Supported commands:
 
@@ -10,5 +10,4 @@ Supported commands:
 * close tab - chrome-control closetab
 * next tab - chrome-control nexttab
 * previous tab - chrome-control prevtab
-
 
